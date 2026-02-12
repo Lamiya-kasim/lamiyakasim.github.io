@@ -18,10 +18,12 @@ window.addEventListener('scroll', function() {
 // Update this part in your script.js
 const typed = new Typed('#typed', {
     strings: [
-        'robust Full-Stack Architectures.',
+        "full-stack web applications",
+         "e-commerce platforms",
+        "backend APIs & databases",
         'optimized Database Systems.',
-        'automated AI Workflows.',
-        'seamless User Experiences.'
+            "scalable software systems",
+        "real-world business solutions"
     ],
     typeSpeed: 50,
     backSpeed: 30,

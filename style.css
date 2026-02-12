@@ -1,3 +1,17 @@
+
+:root {
+  --bg-main: #020617;
+  --bg-darker: #0b1220;
+  --bg-card: #112240;
+
+  --cyan: #38bdf8;
+  --cyan-tint: rgba(56, 189, 248, 0.3);
+
+  --text-white: #e5e7eb;
+  --text-slate: #94a3b8;
+  --text-muted: #9ca3af;
+}
+
 :root {
     --bg-dark: #0a192f;
     --bg-darker: #020c1b;
@@ -175,4 +189,14 @@ header {
 .contact-item:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+
+.interest-card h4 {
+  color: var(--text-white);
+}
+
+.interest-card p {
+  color: var(--text-slate);
+  line-height: 1.6;
 }
